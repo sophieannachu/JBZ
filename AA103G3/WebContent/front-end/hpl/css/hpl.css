@@ -1,0 +1,165 @@
+.outter_hpl{
+	margin-bottom:10px;
+}
+
+.title_hpl{
+	border-left:5px solid #63c2c5;
+	margin-bottom:7px;
+	height:50px;
+	border-radius:5px;
+	padding:8px;
+}
+
+.title_font_hpl{
+	font-size:30px;
+}
+
+.content_hpl{
+/* 	background:#fcf8e3; */
+	border-radius:5px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	margin-bottom:7px;
+}
+
+.content_font_hpl{
+/* 	color:#8a6d4a; */
+	font-size:24px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.suggest_hpl{
+	background:#e4ecf8;
+	border-radius:5px;
+	padding-left:10px;
+	margin-bottom:7px;
+	height:70px;
+	line-height:65px;
+}
+
+.suggest_font_hpl{
+	font-size:26px;
+	color:#456ca7;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.suggest_cpl{
+	background:#e4ecf8;
+	border-radius:5px;
+	padding-left:15px;
+	margin-bottom:5px;
+	height:70px;
+	padding-top:20px;
+/* 	line-height:65px; */
+}
+
+.suggest_font_cpl{
+	font-size:28px;
+	color:#456ca7;
+	font-weight:bold;
+/* 	margin-bottom:10px; */
+}
+
+.name_pl{
+/* 	background:#e4ecf8; */
+/* 	border-radius:5px; */
+/* 	padding-top:0px; */
+	padding-left:10px;
+	margin-bottom:10px;
+	height:50px;
+/* 	line-height:65px; */
+	border-bottom:2px solid #9cd9da;
+}
+
+.font_pl{
+	font-size:28px;
+	color:black;
+/* 	color:#456ca7; */
+	font-weight:bold;
+/* 	margin-bottom:10px; */
+}
+
+.outter_button{
+/* 	margin-bottom:20px; */
+	padding: 0 0;
+/* 	padding-top:0px; */
+	border:0px;
+}
+
+.error_cpl{
+	text-align:center;
+	background:#f2dede;
+	border-radius:5px;
+	padding-left:10px;
+	height:30px;
+	line-height:30px;
+	display:none;
+}
+
+.error_font_cpl{
+
+	font-size:18px;
+	color:red;
+	font-weight:bold;
+}
+
+.title_detail{
+	border-left:5px solid #63c2c5;
+	border-radius:5px;
+	margin-bottom:10px;
+	height:50px;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.title_font_detail{
+	font-size:30px;
+}
+
+.suggest_detail{
+	background:#e4ecf8;
+	height:46px;
+	margin-bottom:10px;
+	padding-left:12px;
+	padding-top:9px;
+/* 	border-radius:5px; */
+/* 	line-height:65px; */
+}
+
+.suggest_font_detail{
+	font-size:28px;
+	color:#456ca7;
+	font-weight:bold;
+/* 	margin-bottom:10px; */
+}
+
+.record_detail{
+	padding-left:15px;
+}
+
+.record_font_detail{
+	margin-bottom: 8px;
+	font-size:24px;
+}
+
+.name_detail{
+/* 	background:#e4ecf8; */
+/* 	border-radius:5px; */
+/* 	padding-top:0px; */
+/* 	padding-left:10px; */
+	margin-bottom:10px;
+	height:70px;
+/* 	line-height:65px; */
+	border-bottom:2px solid #9cd9da;
+}
+
+.font_detail{
+	font-size:24px;
+	color:black;
+/* 	color:#456ca7; */
+	font-weight:bold;
+	margin-bottom:10px;
+}

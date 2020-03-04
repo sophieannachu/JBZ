@@ -1,0 +1,84 @@
+main.css
+*{
+	margin:5px;
+	font-family:Tahoma,Verdana,Arial;
+}
+
+body{
+	background-image:url('/AA103G3/front-end/image/loginRun.jpg');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: 100%;
+
+	/*background:#ccc;*/
+}
+h1{font: bold 72px Tahoma,��嚙踐�縣��嚙踝蕭,Verdana,Arial;}
+h2{font: bold 55px Tahoma,��嚙踐�縣��嚙踝蕭,Verdana,Arial;}
+h3{font: bold 48px Tahoma,��嚙踐�縣��嚙踝蕭,Verdana,Arial;}
+h4{font: bold 20px Tahoma,��嚙踐�縣��嚙踝蕭,Verdana,Arial;}
+p{font: bold 12px Tahoma,��嚙踐�縣��嚙踝蕭,Verdana,Arial;}
+
+#title{
+	margin-top: 50px;
+	color:#FFF;
+	margin-left:50px auto;
+	filter:alpha(opacity=80);
+}
+.jbz1{
+ /*   display:inline-block;*/
+    margin-left: 600px;
+    width:100px;
+/*    padding:5px;*/
+}
+.jbz2{
+ /*   display:inline-block;*/
+    width:200px;
+/*    padding:5px;*/
+}
+#skin{
+	/*border:1px solid lightblue;*/
+	width:30%;
+	background:#fff ;
+	margin:50px auto;
+	filter:alpha(opacity=90);
+	-moz-opacity:0.85;
+	opacity: 0.85;
+	padding:40px;
+
+}
+#form-group{
+	/*border:1px solid pink;*/
+	padding:100px;
+	color:#cacbd0;
+	display:inline-block;
+
+}
+
+
+
+#main_section{
+	padding-left: 60%;
+    width:100%;
+    float:center;
+
+    background:#fff ;
+    padding:20px 20px 20px 20px;
+
+} 
+.item{
+	
+	text-align: right;
+	display: inside-block;
+/*	float: right;*/
+/*	padding:20px;*/
+
+}
+button{
+	padding-left: 250px;
+	display: inside-block;
+}
+
+h1,h2,h3,h4,p{
+	margin-bottom:10px;
+}
+

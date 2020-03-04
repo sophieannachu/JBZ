@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.basiccheck.model.BasicCheckVO" table="basiccheck" >
+        
+        <id name="basicCheckno" column="basicCheckno">
+            <generator class="sequence" >
+              <param name="sequence">basicCheckno_seq</param>
+            </generator>  
+        </id>
+        
+        <property name="weight" column="weight" />
+        <property name="bmi" column="bmi" />
+        <property name="bmr" column="bmr" />
+        <property name="bFat" column="bFat" />
+        <property name="waisyline" column="waisyline" />
+        <property name="checkDate" column="checkDate" />
+        <property name="memno" column="memno" />
+        
+    </class>
+    
+    
+    <!--『透過名稱』的『引用查詢』 -->
+<!--     <query name="myQuery1">           -->
+<!--       <![CDATA[               -->
+<!--           from EmpVO where empno=? and ename=? and hiredate=? order by empno          -->
+<!--       ]]> -->
+<!--     </query>  -->
+    
+<!--     『透過名稱』的『引用查詢』 -->
+<!--     <query name="myQuery2">           -->
+<!--       <![CDATA[               -->
+<!--           from EmpVO where empno=:empno and ename=:ename and hiredate=:hiredate order by empno          -->
+<!--       ]]> -->
+<!--     </query>  -->
+</hibernate-mapping>

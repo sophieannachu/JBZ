@@ -1,0 +1,72 @@
+/* *{ */
+/* 	outline: solid 1px red; */
+/* } */
+.chatContent div:first-child {
+	height:78%;
+/* 	outline:solid 1px; */
+	background-color:#DDDDDD;
+}
+
+.chatContent{
+	border: 3px solid rgb(99, 194, 197);
+	border-style:dashed;
+    border-radius: 25px;
+/* 	outline:solid 1px; */
+/* 	height:500px; */
+	bottom:6%; 
+ 	position:fixed; 
+   	z-index:150; 
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop+
+        (document.documentElement.clientHeight-this.offsetHeight)));
+   	height: 30%;
+	left: 72%;
+	width:15%;
+	background-color: white;
+}
+
+#main{
+	width:100%;
+	background-color: 	#DDDDDD;
+	margin: auto;
+	margin-top:10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding:0px;
+	
+
+}
+#chat{
+	width:226px; 
+	position: fixed;
+	background-color: 	#00BBFF; 
+	margin-left: 82%; 
+ 	margin-top: 11%;  
+}
+#chatMain{
+	height:500px;
+	bottom:0;
+	position:fixed;
+	z-index:150;
+	_position:absolute;
+	_top:expression(eval(document.documentElement.scrollTop+
+        (document.documentElement.clientHeight-this.offsetHeight)));
+	height: 90%;
+	left: 88%;
+	background-color: white;
+}
+#chatMain2{
+	height:500px;
+	bottom:-93%; 
+ 	position:fixed; 
+   	z-index:150; 
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop+
+        (document.documentElement.clientHeight-this.offsetHeight)));
+   	height: 100%;
+	left: 88%;
+	
+	background-color: white;
+
+
+}

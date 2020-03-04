@@ -1,0 +1,352 @@
+@font-face {
+  font-family:  MyCustomFont;
+  src: local("微軟正黑體");
+  /* ���鞊船�嚙踐�蕭����蕭��蕭謕蕭豲嚙踝蕭謕蕭��蕭������蕭�嚙踝蕭謕蕭豲鞎�嚙踝蕭謕蕭豲嚙踝蕭謕蕭豲����蕭嚙踐�蕭豲嚙踝蕭謕蕭��嚙踐���雓����蕭�����鞊舀�嚙踝蕭謕蕭豲���蕭��蕭謕蕭豲嚙踝蕭�����嚙踝蕭��嚙踝蕭謕 */
+}
+
+/* 嚙踝蕭謕蕭豲蕭��蕭謕蕭豲���嚙踝蕭謕蕭��雓����頩����蕭蹎蕭謕嚙踝蕭��蕭謚啾�蕭謒蕭嚙踐�蕭豲����蕭�嚙踝蕭謕 - ���蕭��嚙踐�蕭嚙踐�蕭���蕭嚙踐�蕭豲 190KB */
+@font-face {
+  font-family: MyCustomFont;
+  unicode-range: U+000-5FF, U+1e00-1fff, U+2000-2300;
+  src: url('https://fonts.googleapis.com/css?family=Hind+Guntur');
+}
+
+body{
+	color: #9C7562;
+	font-family: 'MyCustomFont';
+	font-weight: bold;
+}
+
+/*				*{
+					outline: solid 1px red;
+					}*/
+					/*navigator���蕭�����蕭�����ㄜ嚙踐������嚙踐�go嚙踝蕭謕蕭��蕭��u*/
+					.navigatorxs,.navigatorsm{
+						z-index: 10;
+						position: relative;
+						height: 0px;
+						width:100%;
+						margin:0 auto;
+						max-width: 1360px;
+						/*float: left;*/
+					}
+					.navxs{
+						position: absolute;
+						width:100%;
+						padding: 20px 20px;
+					}
+					.navsm{
+						position: absolute;
+						width:100%;
+						padding: 20px 20px;
+					}
+
+					/*���蕭�����蕭����嚙踝o padding���蕭��嚙踐�蕭嚙踐�蕭豲*/
+					.logo{
+						padding: 0 40px;
+					}
+					/*���蕭�����蕭����撠瞟o嚙踝蕭謕蕭豲��朵嚙踐此����嚙踝蕭�嚙踐筑�頩�*/
+					.logo img{
+						width: 60px;
+					}
+					/*menu���蕭�����蕭��嚙踝蕭謕*/
+					.menu li{
+						font-size: 18px;
+						list-style-type:none;
+						display: inline-block;
+						padding-left: 15px;
+						padding-top: 30px;
+					}
+					.menu {
+						position:absolute;
+						right:30px;
+						padding: 0 20px;
+					}
+					.menu-xs {
+						width: 100%;
+						position:absolute;
+						right:30px;
+						padding: 0 10px;
+					}
+					/*mobile ���嚙踐狀嚙踐���尿嚙踐��嚙踐筆�����������蕭��嚙踝蕭謕*/
+					.hamburger-menu{
+						float: right;
+						width: 150px;
+						padding:30px 10px;
+						box-sizing: border-box;
+						margin: -20px;
+					}
+					.hamburger-menu p{
+						color: #555;
+						display: inline-block;
+						margin: 0;
+						position: absolute;
+						right: 40px;
+						height: 28px;
+						line-height: 28px;
+						font-size: 18px;
+					}
+
+					.hamburger-icon-open,.hamburger-icon-close{
+
+						width:32px;
+						height: 32px;
+						float: right;
+					}
+					.hamburger-icon-open img,.hamburger-icon-close img{
+						width:29px;
+						height: 29px;
+						float: right;
+					}
+					/*menu嚙踝蕭謕蕭豲������*/
+					.navBack{
+						    color: #fff;
+						    background: #fff;
+						    border: none;
+						    -webkit-border-radius: 25px;
+						    -moz-border-radius: 25px;
+						    border-radius: 25px 0 0 25px;
+						    position: absolute;
+						    right:0px;
+						    top:40px;
+						    width: 470px;
+						    height: 40px;
+						    font-size: 18px;
+						    opacity: 0.5;
+						    /*overflow:hidden;*/
+						    /*display: inline-block;*/
+					}
+					/*navigator end*/
+
+					/*���雓�蕭��蕭謕蕭豲嚙踝蕭謘遴��此����嚙踐�蕭嚙踐�*/
+					.moduel{
+						width: 100%;
+						background-image: url(/AA103G3/front-end/image/backnew.jpg);
+						background-position: 50% 30%;
+						background-size: cover;
+						position: relative;
+						overflow: hidden;
+					}
+					/*嚙踝蕭謕蕭��嚙踝蕭��蕭�嚙踐不蹓蕭����頩����蕭��蕭謕蕭��鞈對����蕭蹍寸gan���蕭�����蕭��嚙踝蕭謕*/
+					.right{
+						/*margin-right:7%;*/
+						text-align: center;
+						padding-top: 150px; 
+					}
+					.right h1{
+						margin-top: 10%;
+						font-size: 50px;
+					}
+					.right p{
+						font-size: 14px;
+					}
+					
+					/*���蕭�嚙踐不蹓蕭����頩����蕭��蕭謕蕭��旨嚙踐飽嚙賭��蕭嚙踐�*/
+					.signup{
+						color: #fff;
+						background: #0E9EA3;
+						border: none;
+						-webkit-border-radius: 25px;
+						-moz-border-radius: 25px;
+						border-radius: 25px;
+						line-height: 50px;
+						margin: 20px auto 150px auto;
+						width:250px;
+						font-size: 18px;
+						display: inline-block;
+					}
+
+					.container-fluid{
+						width:100%;
+					}
+					
+					/*APP info*/
+					.info{
+						margin-top:60px;
+					}
+					/*嚙踝蕭謕蕭��蕭謕嚙踐����蕭嚙踐�蕭��頩�雓蕭雓����蕭��嚙踝蕭謕*/
+
+					.main{
+						margin-top: 30px;
+						max-width: 1400px;
+					}
+					.health{
+						/*border-right: solid 5px #fff;*/
+/* 						display: table-cell; */
+						padding: 0 5px 0 0;
+						text-align: center;
+/* 						float: none; */
+					}
+					.allanyl{
+						text-align: center;
+						margin-bottom: 40px;
+					}
+					.allanyl>div{
+						margin-top: 40px;
+					}
+					.counter{
+						font-size:30px;
+					}
+					.allanyl img{
+						width:100px;
+						height:auto;
+						display:block;
+						margin:0 30%;
+					}
+					.health img{
+						width: 100%;
+						height: auto;
+					}
+					.health p{
+/* 						background-color: #696969; */
+						font-size: 18px;
+						color:#fff;
+						font-weight: normal;
+						margin-bottom: 0px;
+						margin:0;
+						padding:15px 10px;
+						height:110px;;
+					}
+					.healthInfo{
+						text-align: center;
+						margin-bottom: 40px;
+					}
+					/*嚙踝蕭謕蕭��蕭謕嚙踐����蕭嚙踐�蕭��頩�嚙踝蕭豱*/
+
+
+					.news p{
+						font-weight: normal;
+						padding:10px 5px 0 5px;
+					}
+					.news img{
+						width: 100%;
+						margin: 0;
+
+					}
+
+					/*newswall start*/
+				/*div嚙踝蕭謕蕭豲嚙踝蕭謖雓�鞈對����嚙踝蕭謕蕭��嚙踝蕭謕蕭豲�蕭赯∴蕭隡��嚙踐�lay: table-cell;
+				float: none���雓蕭���倏ostrap嚙踝蕭謕蕭豲���蕭謚渲嚙踐狀嚙踐嚙踝蕭謕蕭豲蕭�嚙踐�蕭豲嚙踝蕭����蕭*/
+					.news{
+						/*	border: solid 1px red;*/
+						padding: 0;
+						/*text-align: center;*/
+						opacity:1;
+						color:#fff;
+						display: table-cell;
+						float: none;
+						background-color: 	#696969;
+						border:solid 3px #fff;
+						/*	height: auto;*/
+					}
+/*				.news div{
+					background-color: #47be4e;
+					}*/
+					/*mobile 嚙踝蕭謕蕭��嚙踝嚙踐���蕭��嚙踝蕭謕蕭豲*/
+					.mobile .row{
+						margin-right: 0;
+						margin-left: 0;
+					}
+					.newsWall{
+						background-color: #fff;
+						margin-top: 50px;
+					}
+/*				.news div{
+					height: 300px;
+					}*/
+
+					/*newswall end*/
+
+					.container{
+						max-width: 1000px;
+					}
+					a:hover {
+						text-decoration: none;
+						color:#ccc;
+					}
+
+					a:active {
+						text-decoration: none;
+					}
+					a{
+						color:#fff;
+					}
+
+					/*footer���蕭�����蕭��嚙踝蕭謕*/
+					.footer .row h2{
+						color: #3f5b5c;
+    					font-size: 18px;
+					    /*font-family: cwTeXMing;*/
+					    border-bottom: 1px solid #3f5b5c;
+					    width: 40%;
+					    padding: 10px 0;
+					    margin-bottom: 30px;
+					}
+					.footer .row p{
+						font-size: 12px;
+						margin-bottom: 0px;
+						margin-left: 5px;
+					}
+					br {
+						margin: 0;
+					}
+					.downmenu{
+						list-style: none;
+						padding-left: 0;
+					}
+
+					.downmenu li{
+						float: left;
+   						width: 40%;
+   						margin-left: 0;
+
+
+					}
+					.downmenu li a{
+					   		font-size: 12px;
+					   		color: #fff;
+					   		text-decoration: none;						
+					}
+					.downmenu li a:hover{
+					   		font-size: 12px;
+					   		color: #3f5b5c;				
+					}
+					/*footer end*/
+					/*menu ���鞊舀捕嚙踐城嚙踐�蕭豲���蕭��������嚙踐�蕭嚙踐�*/
+					.menuhover{
+						color:#9C7562;
+					}
+					.menuhover:hover {
+						text-decoration: none;
+						color:#b59788;
+					}
+					.mainHeader .open{
+						position: absolute;
+					    width: 100%;
+					    overflow-y: scroll;
+					    height: 100%;
+					    background-color: #fff;
+
+					}
+					.menuss{
+						text-align: center;
+					    margin: 10px 20px;
+					    font-size: 26px;
+					    line-height: 50px;
+					}
+					.mainHeader .open a{
+						color:#9C7562;				    
+					}
+					.footer{
+						background-color: #63C2C5;
+						padding: 0;
+						font-weight: normal;
+						color: #fff;
+						font-family: '���斑���有嚙踝蕭謕蕭��頩����蕭��嚙踐捶嚙踝蕭謕蕭豲';
+					}
+					.copy{
+						background-color: #0E9EA3 ;
+						padding: 5px;
+						text-align: center; 
+						margin-top: 15px;
+					}

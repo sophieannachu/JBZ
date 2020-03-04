@@ -1,0 +1,394 @@
+.dropdown {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 28px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid;
+  border-color: #ddd;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+  background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+  background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06));
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown:before, .dropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 4px dashed;
+  border-color: #888888 transparent;
+  pointer-events: none;
+}
+
+.dropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.dropdown:after {
+  margin-top: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.dropdown-select {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 12px;
+  color: #62717a;
+/*   text-shadow: 0 1px white; */
+/*   background: #f2f2f2; Fallback for IE 8 */
+  background: rgba(0, 0, 0, 0) !important; /* "transparent" doesn't work with Opera */
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.dropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  color: #394349;
+  outline: 2px solid #49aff2;
+  outline: 2px solid -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.dropdown-select > option {
+  margin: 3px;
+  padding: 6px 8px;
+  text-shadow: none;
+  background: #f2f2f2;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Fix for IE 8 putting the arrows behind the select element. */
+
+.lt-ie9 .dropdown {
+  z-index: 1;
+}
+
+.lt-ie9 .dropdown-select {
+  z-index: -1;
+}
+
+.lt-ie9 .dropdown-select:focus {
+  z-index: 3;
+}
+
+/* Dirty fix for Firefox adding padding where it shouldn't. */
+
+@-moz-document url-prefix() {
+  .dropdown-select {
+    padding-left: 6px;
+  }
+}
+
+/* end */
+
+.navbar-default {
+	background-color: #63C2C5;
+	border-color: #e7e7e7;
+	border-radius: 0px;
+	margin: 0;
+}
+
+.btn-info{
+	border-radius: 0px;
+	background-color:#5ecdd1;
+	height: 28px;
+	padding:0px;
+}
+
+.btn-info:hover{
+	background-color:#5ecdd1;
+}
+.navbar-header img{
+	float:left;
+	width:35px;
+/* 	margin-top:5px */
+}
+.navbar-brand{
+	padding:5px;
+}
+.navbar-brand span{
+	position:relative;
+	left:5px;
+	top:15px;
+}
+.navbar-form{
+	margin-top:10px;
+	padding-left:5px;
+}
+
+.navbar-nav li img{
+	width:30px;
+	heigth:30px;
+}
+
+.container {
+	height: auto;
+	background-color: #e9ebee;
+}
+
+.personal, .mainleft {
+	padding: 0 15px 0 0;
+}
+
+/*左邊personal div CSS*/
+.friendask {
+	background-color: #fff;
+	padding: 5px 5px 0 5px;
+	margin: 15px 15px;
+}
+
+.friendrequest {
+	margin-bottom: 5px;
+}
+
+.requestinfo {
+	padding-left: 0;
+}
+
+.requestinfo button {
+	font-size: 10px;
+}
+
+.ach .row div {
+	padding: 5px;
+}
+
+.ach .row {
+	margin: 0;
+}
+
+.personalPic {
+	padding: 5px;
+	background-color: #fff;
+	margin: 15px 15px;
+	text-align: center;
+}
+
+.personalPic h2 {
+	letter-spacing: 20px;
+	margin-top: 10px;
+}
+
+.personalPic img {
+	width: 100%;
+}
+
+.about {
+	padding: 5px;
+	background-color: #fff;
+	margin: 15px 15px;
+}
+
+.ach {
+	background-color: #fff;
+	margin: 15px 15px;
+}
+.navbar-default{
+	position:fixed;
+	zomm:1;
+	z-index:10;
+	width:100%;
+}
+
+.friSearch li {
+	background-color: #fff;
+	min-width: 201px;
+}
+
+.friSearch li img {
+	width: 30px;
+}
+
+.searchbar, .btn-default {
+	border-radius: 0;
+}
+
+.friSearch {
+	border: 1px solid #ccc;
+	border-color: rgba(0, 0, 0, .15);
+	border-radius: 2px;
+	box-shadow: 0 4px 6px 2px rgba(0, 0, 0, .10);
+}
+
+.dlg-no-close .ui-dialog-titlebar-close {
+	display: none;
+}
+
+
+#dialog-showmore {
+	padding: 0;
+}
+
+/* 營養日記modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 520px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close,.closePhoto {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus ,
+.closePhoto:hover,
+.closePhoto:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+/* 營養日記modal End */
+
+/*右邊好友&日記CSS*/
+.calendar {
+	background-color: #fff;
+	padding: 5px;
+	margin: 15px 0;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+	border-radius: 0px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+	border-radius: 0px;
+}
+
+.ui-tabs {
+	position: relative;
+	padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+	padding: 0;
+}
+
+.ui-widget-content {
+	border: 0;
+}
+
+.ui-widget-header {
+	background: #fff;
+	border: 0;
+}
+
+/* #tabs-1, #tabs-2, #tabs-3, #tabs-4 { */
+/* 	border: solid 1px #ddd; */
+/* } */
+
+/* #tabs { */
+/* 	padding: 5px; */
+/* } */
+
+/* #tabs li a { */
+/* 	color: #0E9EA3; */
+/* 	font-weight: bold; */
+/* } */
+
+.sportdiary {
+	background-color: #fff;
+	padding: 5px 0;
+	margin: 15px 0;
+}
+
+.friendmain {
+	background-color: #fff;
+	padding: 5px 0;
+	margin: 15px 0;
+}
+
+.friend {
+	border: 1px solid #e9ebee;
+	display: inline-block;
+	margin: 0 0 13px 13px;
+	padding: 0 10px 0 0;
+	position: relative;
+	vertical-align: top;
+	width: 45%;
+}
+.friend img{
+	margin:10px;
+	width:40%;
+	height:auto;
+	float:left;
+}
+.friend h3{
+	position:absolute;
+	left:50%;
+	margin-top:40px;
+}
+.friCancle{
+	position:absolute;
+	left:50%;
+	margin-top:80px;
+	width: 100px;
+}
+
+
+/*end*/

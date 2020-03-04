@@ -1,0 +1,88 @@
+.container_listAll_mem{
+	margin-top: 40px;
+}
+.table_listAll_mem>tbody>tr:nth-of-type(even){
+	background: #d5f1ff;
+}
+.table_listAll_mem>tbody>tr:hover{
+	background: #eeeeee;
+}
+.table_listAll_mem > tbody > tr > td{
+/* 	white-space: nowrap; */
+	height: 16px;
+	font-size: 20px;
+	text-align: center;
+    vertical-align: middle;
+}
+.table_listAll_mem > thead > tr > th{
+/* 	white-space: nowrap; */
+	height: 60px;
+	font-size: 20px;
+	text-align: center;
+    vertical-align: middle;
+}
+/* .search_table > thead > tr > th{ */
+/* 	border: 1px solid red; */
+/* 	width: 100%; */
+/* 	height: 50px; */
+/* } */
+.control-label_listAll_mem{ 
+	margin-top: 3px;
+ 	width: 30%; 
+	height: 40px;
+ 	font-size: 20px; 
+}
+.detail_btn_listAll_mem{
+	height: 40px;
+/* 	margin-top:15px; */
+}
+.table>tbody>tr>td>img {
+	width: 50px;
+	height: 50px;
+}
+/* .insert_btn{ */
+/* 	font-weight: bold; */
+/* 	font-size: 24px; */
+/* 	width: 120px; */
+/* 	height: 50px; */
+/* margin-bottom:15px; */
+/* margin-right:20px; */
+/* } */
+/* .delete_btn{ */
+/* 	font-size: 18px; */
+/* 	margin-top: 16px; */
+/* 	border: none; */
+/* 	background: transparent; */
+/* } */
+/* .update_btn{ */
+/* 	color: green; */
+/* 	font-size: 20px; */
+/* 	margin-top: 16px; */
+/* 	border: none; */
+/* 	background: transparent; */
+/* } */
+/* .modify_btn{ */
+
+/* 	margin-top: 16px; */
+/* } */
+/* .glyphicon-ok{ */
+/* 	color:#00bb0a; */
+/* } */
+/* .glyphicon-remove{ */
+/* 	color:red; */
+/* } */
+/* .auth{ */
+/* 	width: 20px; */
+/*   	height: 20px; */
+/* } */
+/* .allClose_btn{ */
+/* 	color: red; */
+/* 	font-size: 20px; */
+/* 	margin-top: 16px; */
+/* } */
+/* .allOpen_btn{ */
+/* 	color: green; */
+/* 	font-size: 20px; */
+/* 	margin-top: 16px; */
+/* } */
+

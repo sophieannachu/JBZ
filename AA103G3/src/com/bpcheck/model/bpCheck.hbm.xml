@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.bpcheck.model.BPCheckVO" table="bpcheck" >
+        
+        <id name="bpCheckno" column="bpCheckno">
+            <generator class="sequence" >
+              <param name="sequence">bpCheckno_seq</param>
+            </generator>  
+        </id>
+        
+        <property name="sPressure" column="sPressure" />
+        <property name="dPressure" column="dPressure" />
+        <property name="checkDate" column="checkDate" />
+        <property name="memno" column="memno" />
+        
+    </class>
+    
+    
+    <!--『透過名稱』的『引用查詢』 -->
+<!--     <query name="myQuery1">           -->
+<!--       <![CDATA[               -->
+<!--           from EmpVO where empno=? and ename=? and hiredate=? order by empno          -->
+<!--       ]]> -->
+<!--     </query>  -->
+    
+<!--     『透過名稱』的『引用查詢』 -->
+<!--     <query name="myQuery2">           -->
+<!--       <![CDATA[               -->
+<!--           from EmpVO where empno=:empno and ename=:ename and hiredate=:hiredate order by empno          -->
+<!--       ]]> -->
+<!--     </query>  -->
+</hibernate-mapping>

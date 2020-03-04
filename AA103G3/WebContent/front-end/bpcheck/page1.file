@@ -1,0 +1,25 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="Big5"%>
+<%  int currentPage=0;
+ 	int rowNumber = 0;
+ 	int pageNumber =0;
+ 	int rowsPerPage = 5;
+    rowNumber=list.size();
+    if (rowNumber%rowsPerPage !=0)
+     pageNumber=rowNumber/rowsPerPage +1;
+    else pageNumber=rowNumber/rowsPerPage; 
+    try{
+    	currentPage = Integer.parseInt(request.getParameter("currentPage"));
+    }catch(Exception e){
+    	if("last".equals(request.getParameter("currentPage"))){
+    		currentPage=pageNumber;
+    	}
+    	if("first".equals(request.getParameter("currentPage"))){
+    		currentPage=1;
+    	}
+    }
+     
+    int pageIndex = (currentPage-1)*rowsPerPage;
+
+%>
+
+

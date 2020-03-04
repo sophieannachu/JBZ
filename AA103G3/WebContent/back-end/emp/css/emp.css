@@ -1,0 +1,67 @@
+.container_listAll_emp {
+	margin-top: 20px;
+}
+
+.form-group_listAll_emp {
+/* 	margin-top: 25px; */
+}
+
+.control-label_listAll_emp {
+	margin-top: 3px;
+	font-size: 20px;
+	width: 10%;
+/* 	height: 40px; */
+}
+
+.form-control_listAll_emp {
+	width: 200px;
+}
+
+.search_table_listAll_emp>thead>tr>th {
+	width: 100%;
+	height: 70px;
+}
+
+.insert_btn_listAll_emp {
+/* 	font-weight: bold; */
+	font-size: 24px;
+	width: 120px;
+	height: 50px;
+}
+
+.table_listAll_emp>tbody>tr:nth-of-type(even) {
+	background: #d5f1ff;
+}
+
+.table_listAll_emp>tbody>tr:hover {
+	background: #eeeeee;
+}
+
+.table_listAll_emp>thead>tr>th {
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.table_listAll_emp>tbody>tr>td {
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.table>tbody>tr>td>img {
+	width: 60px;
+	height: 60px;
+}
+
+.fa-plus {
+	vertical-align: -2px;
+}
+
+.delete_btn_listAll_emp, .update_btn_listAll_emp {
+	font-size: 20px;
+/* 	margin-top: 16px; */
+	border: none;
+	background: transparent;
+}

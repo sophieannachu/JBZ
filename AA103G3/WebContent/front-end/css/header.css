@@ -1,0 +1,214 @@
+.text-field {
+	width: 100%;
+}
+#removeChat{
+	    display: inline;
+    margin-left: 180px;
+    margin-top: -20px;
+}
+#removeChat img{
+	margin-top: -36px;
+    width: 14%;
+    display: inline;
+    margin-left: 62px;
+}
+#chatContent span{
+    display: initial;
+    margin-left: 23%;
+}
+.header{
+	max-width: 1000px;
+	margin: auto;
+	
+}
+.fixmenu li{
+	border-right: solid 1px #9cd9da;
+	padding: 20px 33px;
+}
+.fixmenu ul li div {
+	margin-top: 10px;
+}
+
+.fixmenu a{
+	color: #0E9EA3;
+	font-weight: bold;
+}
+.fixmenu ul{
+	display: inline-flex;
+}
+.smallmenu ul{
+	display: inline-flex;
+}
+.smallmenu li{
+	padding: 20px 30px ;
+	width: 167px;
+	background-color: #0E9EA3;
+	border-right:solid 1px #fff;
+}
+.smallmenu a{
+	font-size: 18px;
+	padding: 10px 10px;
+}
+.fixed1{
+	visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; 
+  	position: fixed;
+	top: 0;
+	margin: auto auto; 
+	z-index: 10;
+
+}
+
+.menutitle a{
+	color: #fff;
+}
+.menuimg{
+	visibility: hidden;
+	opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+.hidden1{
+	visibility: hidden;
+	opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+.menutitle:hover .menuimg {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; 
+  background-color: #9cd9da;
+  margin-top: 5px;
+}
+.menutitle { position: relative; }
+.imag{
+	height: 100px;
+	width: 100px;
+}
+
+#personalPage{
+	position:absolute;
+	right: 15px;
+	float: right;
+	background-color:#63C2C5;
+	padding:5px;	
+	width:auto;
+}
+
+#personalPage img{
+	width:35px;
+	height:auto;
+	float:left;
+}
+
+#personalPage h5{
+	position:relative;
+	display: inline-block;
+	margin-top:5px;
+	margin-right:10px;
+	left:5px;
+	color:#fff;
+}
+#personalPage ul li{
+/* 	position:relative; */
+/* 	left:5px; */
+/* 	margin-right:5px; */
+/* 	margin-top:5px; */
+	display:inline-block;
+	position:relative;
+}
+
+
+
+
+nav{
+	
+	text-align: center;
+	padding: 0px;
+}
+
+
+#logo{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+#slogan{
+	height: 35px;
+	margin-top: 65px;
+}
+#member{
+	height: 300px;
+	float: right;
+}
+#mempic{
+	width: 20px;
+	height: 20px;
+}
+#membtn{
+	height: 50px;
+	font-size: 24px;
+}
+
+nav div{
+	width: 70%;
+	height: 21px;
+	margin: auto;
+
+}
+
+.aa1{
+	display: none;
+	position: fixed;
+	display: inline-flex;
+	margin: 116px 0 0 90px;
+}
+
+
+.navimage{
+	height: 80px;
+	width: 80px;
+}
+
+.menu{
+	border-right: 2px dotted blue;
+
+}
+#change{
+	background-image: url('/AA103G3/front-end/image/hero-img-01.gif'); 
+	background-size:cover !important;
+	margin-top: 20px;
+	width: 100%;
+	height: 300px;
+	margin: auto;
+}
+
+nav li:hover{
+	background-color: steelblue;
+
+}
+.title-bar{
+	padding:25px 0;
+	background-color: #2D6A6c;
+}
+.container{
+	max-width: 1000px;
+	padding-left:0px;
+	padding-right: 0px; 
+}

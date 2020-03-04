@@ -1,0 +1,178 @@
+/**{
+	outline: solid 1px;
+}*/
+/* 嚙踝蕭謕蕭豲�������蕭����蕭�嚙踐�蕭��蕭�嚙踐����蕭��揭嚙踝蕭謕蕭豲�������蕭�����蕭�����蕭豲 */
+@font-face {
+   	font-family: "SentyCHALKoriginal";
+    src: url(SentyCHALKoriginal.ttf);
+}
+
+section{
+	/*border: 1px solid #aaa;*/
+	height: 1000px;
+	/*margin: 10px;*/
+}
+/*#content{*/
+	
+	/*left: 50%;*/
+	/*max-width: 1000px;*/
+	/*margin: auto;*/
+/*}*/
+#backhome{
+	border: 1px solid #aaa;
+	height: 30px;
+	text-align:right;
+}
+#stascontainer{
+	margin-top:50px;
+	border: 2px solid red;
+}
+.stasimage{
+	width: 400px;
+	height: 300px;
+}
+#goodtext{
+	font-size: 30px;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	margin-bottom:20px;
+	padding: 15px;
+}
+/*#goodjob{
+	width: 80%;
+	float:left;
+}*/
+.content{
+	max-width: 1000px;
+	margin-bottom: 50px;
+}
+.stascontainer li{
+	/*padding: 55px;*/
+	width: 400px;
+	height: 300px;
+	display:inline-block;
+}
+
+#goodjob li{
+	margin:15px 0;	
+}
+#goodjob img{
+	opacity: 0.3;
+
+	width: 16%;
+	margin:0 10px;
+
+}
+
+.calculate{
+	font-size:20px;
+	padding-left: 15px;
+	margin-bottom:10px;
+	
+}
+.ach{
+	border:1px solid #ddd;
+	padding:10px;
+	background-color:#f5f5f5;
+}
+
+.calculate span{
+	color:#63C2C5;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.superman{
+	background-repeat:no-repeat;
+	/*height: 200px;
+	
+	/*float:right;*/
+	background-image:url('/AA103G3/front-end/image/wh.jpg');
+	
+	width:194px;
+	padding-top: 80px;
+	height:343px; 
+/* 	margin-left:70px; */
+	margin-top: 10px;	
+	/*background-position:right 30%;*/
+}
+.superman span{
+	rgba(255,0,0);
+	font-size: 22px;
+	font-family: "SentyCHALKoriginal";
+	color: white;
+	margin-top: 80px;
+	text-align: center;
+	
+	/*background-position:right 30%;*/
+}
+
+
+#stastext{
+	margin-top:50px;
+	font-size: 30px;
+	/*text-align: center;*/
+	border-top:1px solid #aaa; 
+	border-bottom: 1px solid #aaa;
+	padding: 15px;
+}
+
+/*test*/
+.bar-main-container {
+  margin: 10px auto;
+  width: 100%;
+  height: 50px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 0.8em;
+  color: #FFF;
+}
+
+.wrap { padding: 8px; }
+
+.bar-percentage {
+  float: left;
+  background: rgba(0,0,0,0.13);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 9px 0px;
+  width: 18%;
+  height: 16px;
+}
+
+.bar-container {
+  float: right;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 10px;
+  background: rgba(0,0,0,0.13);
+  width: 78%;
+  margin: 12px 0px;
+  overflow: hidden;
+}
+
+.bar {
+  float: left;
+  background: #FFF;
+  height: 100%;
+  -webkit-border-radius: 10px 0px 0px 10px;
+  -moz-border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0px 0px 10px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+/* COLORS */
+.azure   { background: #38B1CC; }
+.emerald { background: #2CB299; }
+.violet  { background: #8E5D9F; }
+.yellow  { background: #EFC32F; }
+.red     { background: #E44C41; }

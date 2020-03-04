@@ -1,0 +1,28 @@
+.container_showOne_mem{
+	margin-top: 50px;
+}
+.datarow{
+	margin-bottom: 15px;
+}
+.title_label{
+	font-size:22px; 
+	font-weight:bold; 
+	color:black;
+	margin-right:8px;
+}
+.data_label{
+	font-size:18px; 
+	color:black;
+}
+.glyphicon-ok_showOne_mem{
+	font-size:18px;
+	color:#00bb0a;
+}
+.glyphicon-remove_showOne_mem{
+	vertical-align:-1px;
+	font-size:18px;
+	color:red;
+}
+.glyphicon-repeat_showOne_mem{
+	vertical-align:-2px;
+}

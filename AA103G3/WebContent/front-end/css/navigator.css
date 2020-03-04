@@ -1,0 +1,167 @@
+@font-face {
+	font-family: MyCustomFont;
+	src: local("敺株�迤暺��");
+	/* 瘝�����Ⅳ������身瘨菔�������� */
+}
+
+/* �������鈭泵���� - 憭批��� 190KB */
+@font-face {
+	font-family: MyCustomFont;
+	unicode-range: U+000-5FF, U+1e00-1fff, U+2000-2300;
+	src: url('https://fonts.googleapis.com/css?family=Hind+Guntur');
+}
+
+body {
+	color: #9C7562;
+	font-family: 'MyCustomFont';
+	font-weight: bold;
+}
+
+/*				*{
+					outline: solid 1px red;
+					}*/
+/*navigator閮剖��logo�enu*/
+.navigatorxs, .navigatorsm {
+	z-index: 10;
+	position: relative;
+	height: 0px;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1360px;
+	/*float: left;*/
+}
+
+.navxs {
+	position: absolute;
+	width: 100%;
+	padding: 20px 20px;
+}
+
+.navsm {
+	position: absolute;
+	width: 100%;
+	padding: 20px 20px;
+}
+
+/*閮剖�ogo padding憭批��*/
+.logo {
+	padding: 0 40px;
+}
+/*閮剖�ogo���之撠�*/
+.logo img {
+	width: 60px;
+}
+/*menu閮剖��*/
+.menu li {
+	font-size: 18px;
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 15px;
+	padding-top: 30px;
+}
+
+.menu {
+	position: absolute;
+	right: 30px;
+	padding: 0 20px;
+}
+
+.menu-xs {
+	width: 100%;
+	position: absolute;
+	right: 30px;
+	padding: 0 10px;
+}
+/*mobile 瞍Ｗ��閮剖��*/
+.hamburger-menu {
+	float: right;
+	width: 150px;
+	padding: 30px 10px;
+	box-sizing: border-box;
+	margin: -20px;
+}
+
+.hamburger-menu p {
+	color: #555;
+	display: inline-block;
+	margin: 0;
+	position: absolute;
+	right: 40px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 18px;
+}
+
+.hamburger-icon-open, .hamburger-icon-close {
+	width: 32px;
+	height: 32px;
+	float: right;
+}
+
+.hamburger-icon-open img, .hamburger-icon-close img {
+	width: 29px;
+	height: 29px;
+	float: right;
+}
+/*menu��*/
+.navBack {
+	color: #fff;
+	background: #fff;
+	border: none;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px 0 0 25px;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	width: 470px;
+	height: 40px;
+	font-size: 18px;
+	opacity: 0.5;
+	/*overflow:hidden;*/
+	/*display: inline-block;*/
+}
+/*menu 頞��蝯身摰�*/
+.menuhover {
+	color: #9C7562;
+}
+
+.menuhover:hover {
+	text-decoration: none;
+	color: #b59788;
+}
+
+.mainHeader .open {
+	position: absolute;
+	width: 100%;
+	overflow-y: scroll;
+	height: 100%;
+	background-color: #fff;
+}
+
+.menuss {
+	text-align: center;
+	margin: 10px 20px;
+	font-size: 26px;
+	line-height: 50px;
+}
+
+.mainHeader .open a {
+	color: #9C7562;
+}
+
+.footer {
+	background-color: #63C2C5;
+	padding: 0;
+	font-weight: normal;
+	color: #fff;
+	font-family: '敺株�迤暺��';
+}
+
+.copy {
+	background-color: #0E9EA3;
+	padding: 5px;
+	text-align: center;
+	margin-top: 15px;
+}
+/*navigator end*/

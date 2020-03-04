@@ -1,0 +1,43 @@
+<%
+	MemVO memVO = (MemVO) session.getAttribute("memVO");
+	pageContext.setAttribute("memVO", memVO);
+
+	Integer memno = 0;
+	try {
+		memno = Integer.parseInt(request.getParameter("memno"));
+	} catch (Exception e) {
+		memno = memVO.getMemno();
+	}
+	MemVO memVOO = memSvc.getOneMem(memno);
+	request.setAttribute("memVOO", memVOO);
+	
+	List<MemAchVO> memAchList = memAchSvc.getAllByMemMemAch(memVOO.getMemno());
+	pageContext.setAttribute("memAchList", memAchList);
+	
+%>
+<c:set var="memnop" value="${memVO.memno}" scope="page" />
+<c:set var="memnoThisPage" value="${memVOO.memno}" scope="page" />
+<c:set var="isSelf" value="false" scope="page" />
+<c:set var="isFrid" value="false" scope="page" />
+<c:set var="isApply" value="false" scope="page" />
+<c:set var="isOpen" value="true" scope="page" />
+
+<!-- 確認是否為本人 -->
+<c:if test="${memnop==memnoThisPage}">
+	<c:set var="isSelf" value="true" scope="page" />
+</c:if>
+<!-- 確認是否已送出好友申請 -->
+<c:if test="${! empty friSvc.getOneFriend(memnop,memnoThisPage)}">
+	<c:set var="isApply" value="true" scope="page" />
+</c:if>
+<!-- 確認是否為好友 -->
+<c:if test="${! empty friSvc.getOneFriend(memnop,memnoThisPage)}">
+	<c:if test="${friSvc.getOneFriend(memnop,memnoThisPage).status==1}">
+		<c:set var="isFrid" value="true" scope="page" />
+	</c:if>
+</c:if>
+
+<c:if test="${memVOO.cpt==1}">
+	<c:set var="isOpen" value="false" scope="page" />
+</c:if>
+

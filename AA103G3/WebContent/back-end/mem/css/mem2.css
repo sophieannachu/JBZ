@@ -1,0 +1,29 @@
+.container_showOne_mem{
+	margin-top: 50px;
+}
+.datarow{
+	margin-bottom: 15px;
+}
+.title_label{
+	font-size:22px; 
+	font-weight:bold; 
+	color:black;
+	margin-right:8px;
+}
+.data_label{
+	font-size:20px; 
+	color:black;
+}
+.fa-check{
+	font-size:18px;
+	color:#00bb0a;
+}
+.fa-times{
+	vertical-align:-1px;
+	font-size:18px;
+	color:red;
+}
+#photo_showOne{
+	width:150px;
+	height:150px;
+}

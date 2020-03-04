@@ -1,0 +1,35 @@
+.container_listAll_mem{
+	margin-top: 40px;
+}
+.table_listAll_mem>tbody>tr:nth-of-type(even){
+	background: #dbffdc;
+}
+.table_listAll_mem>tbody>tr:hover{
+	background: #eeeeee;
+}
+.table_listAll_mem > tbody > tr > td{
+	white-space: nowrap;
+	height: 16px;
+	font-size: 20px;
+	text-align: center;
+    vertical-align: middle;
+}
+.table_listAll_mem > thead > tr > th{
+	white-space: nowrap;
+	height: 20px;
+	font-size: 18px;
+	text-align: center;
+    vertical-align: middle;
+}
+.control-label_listAll_mem{ 
+/* 	margin-top: 5px; */
+ 	width: 30%; 
+	height: 40px;
+ 	font-size: 20px; 
+}
+.detail_btn_listAll_mem{
+	height: 40px;
+	margin-top:15px;
+}
+
+

@@ -1,0 +1,143 @@
+.float-right {
+	float: right;
+}
+
+.fa {
+	font-size: .8em;
+	line-height: 22px !important;
+}
+
+.checkedItem .item {
+	display: block;
+}
+
+dropdown {
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 0 10px;
+}
+
+dropdown ul li {
+	display: block;
+	border: solid 1px #ECF0F1;
+	background: #fff;
+	padding: 10px 20px;
+}
+dropdown label {
+	display: block;
+	background: #0E9EA3;
+	color: #fff;
+	padding: 10px 20px;
+	border: solid 1px #ECF0F1;
+}
+dropdown label:hover {
+	background: #fff;
+	color: #0E9EA3;
+	cursor: pointer;
+}
+
+.month {
+	background-color: #63c2c5;
+	border-left: 4px solid #0E9EA3;
+}
+
+dropdown label {
+	color: #fff;
+	border-left: 4px solid #63c2c5;
+	position: relative;
+	z-index: 2;
+}
+
+.item {
+	display: none;
+	padding: 0;
+}
+
+.item li {
+	background-color: #fff;
+	border-radius: 3px;
+	margin: 2px 0;
+	color:#0E9EA3;
+}
+
+.item li:hover {
+	background-color: #fef5da;
+}
+
+.month {
+	border-bottom: solid 1px #ccc;
+	padding: 0;
+	color: #fff;
+}
+
+.month p {
+	padding: 10px 0 10px 20px;
+}
+
+dropdown input {
+	display: none;
+}
+
+dropdown input ~ ul {
+	position: relative;
+	display: none;
+	opacity: 0;
+	top: -20px;
+	z-index: 1;
+}
+
+dropdown input:checked ~ ul {
+	display: block;
+	opacity: 1;
+	top: 0;
+}
+
+
+.GPSinfo p {
+	margin: 5px 0;
+}
+
+.GPSinfo h3 {
+	font-size: 24px;
+	margin: 5px 0;
+	position: absolute;
+	right: 15px;
+}
+
+.watchinfo{
+ 	margin:10px 10px 20px 10px;;
+}
+
+.anylitem {
+	margin: 0 0 20px 0;
+	background-color: #ccc;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.anylcontain {
+	margin: 0 0 20px 0;
+}
+
+#tab-1, #tab-2, #tab-3, #tab-4 {
+	height: 300px;
+}
+/* jquery-ui屬性從設定 */
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+	border-radius: 0px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+	border-radius: 0px;
+}
+
+.ui-tabs {
+	position: relative;
+	padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+	padding: 0;
+}
