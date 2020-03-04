@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="iii.jbz.mobile.foodrec.FoodListVO" table="foodlist" >
+        
+        <id name="fdrecno" column="fdrecno">
+            <generator class="sequence" >
+              <param name="sequence">foodlist_seq</param>
+            </generator>  
+        </id>
+        
+        <property name="fddesc" column="fddesc" />
+        <property name="fddate" column="fddate" />
+        <property name="fdqua" column="fdqua" />
+        <property name="memno" column="memno" />
+        <property name="fd_no" column="fd_no" />
+        
+    </class>
+</hibernate-mapping>

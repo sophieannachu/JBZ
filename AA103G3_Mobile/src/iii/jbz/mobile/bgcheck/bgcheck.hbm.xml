@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="iii.jbz.mobile.bgcheck.BGCheckVO" table="bgcheck" >
+        
+        <id name="bgCheckno" column="bgcheckno">
+            <generator class="sequence" >
+              <param name="sequence">bgcheckno_seq</param>
+            </generator>  
+        </id>
+        
+        <property name="bgBfMeat" column="bgbfmeat" />
+        <property name="bgAfMeat" column="bgafmeat" />
+        <property name="bgBfSleep" column="bgbfsleep" />
+        <property name="checkDate" column="checkdate" />
+        <property name="memno" column="memno" />
+        
+    </class>
+</hibernate-mapping>

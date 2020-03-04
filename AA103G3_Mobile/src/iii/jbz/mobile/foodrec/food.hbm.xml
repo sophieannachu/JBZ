@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="iii.jbz.mobile.foodrec.FoodVO" table="fd_food" >
+        
+        <id name="fd_no" column="fd_no">
+            <generator class="sequence" >
+              <param name="sequence">fd_food_seq</param>
+            </generator>  
+        </id>
+        
+        <property name="fd_name" column="fd_name" />
+        <property name="fd_spone" column="fd_spone" />
+        <property name="fd_sptwo" column="fd_sptwo" />
+        <property name="fd_spthr" column="fd_spthr" />
+        <property name="fd_spfor" column="fd_spfor" />
+        <property name="fd_spfir" column="fd_spfir" />
+        <property name="fd_spsix" column="fd_spsix" />
+        <property name="prot" column="prot" />
+        <property name="fat" column="fat" />
+        <property name="mono" column="mono" />
+        <property name="poly" column="poly" />
+        <property name="sfa" column="sfa" />
+        <property name="trans" column="trans" />
+        <property name="cho" column="cho" />
+        <property name="carb" column="carb" />
+        <property name="sugar" column="sugar" />
+        <property name="df" column="df" />
+        <property name="na" column="na" />
+        <property name="ca" column="ca" />
+        <property name="k" column="k" />
+        <property name="cal" column="cal" />
+        
+    </class>
+</hibernate-mapping>

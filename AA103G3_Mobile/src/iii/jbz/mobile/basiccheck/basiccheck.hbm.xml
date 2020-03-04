@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="iii.jbz.mobile.basiccheck.BasicCheckVO" table="basiccheck" >
+        
+        <id name="basicCheckno" column="basiccheckno">
+            <generator class="sequence" >
+              <param name="sequence">basiccheckno_seq</param>
+            </generator>  
+        </id>
+        
+        <property name="weight" column="weight" />
+        <property name="bmi" column="bmi" />
+        <property name="bmr" column="bmr" />
+        <property name="bFat" column="bFat" />
+        <property name="waisyline" column="waisyline" />
+        <property name="checkDate" column="checkdate" />
+        <property name="memno" column="memno" />
+        
+    </class>
+</hibernate-mapping>
